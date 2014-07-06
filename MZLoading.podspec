@@ -11,6 +11,5 @@ Pod::Spec.new do |s|
   }
   s.requires_arc = true
   s.source_files = 'MZLoading/MZLoadingCircle.{h,m}'
-  end
   s.ios.framework = 'CoreGraphics', 'UIKit', 'Foundation'
 end
